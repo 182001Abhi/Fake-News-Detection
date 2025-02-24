@@ -5,6 +5,7 @@ from nltk.corpus import stopwords
 import re
 from nltk.stem.porter import PorterStemmer
 
+# App created
 app = Flask(__name__)
 ps = PorterStemmer()
 
